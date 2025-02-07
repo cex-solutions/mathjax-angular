@@ -10,11 +10,6 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      issues: write
-      pull-requests: write
-      id-token: write
     steps:
       - uses: actions/checkout@v2
 
@@ -36,7 +31,7 @@ jobs:
           private_key: ${{ secrets.CEX_WORKER_SECRET }}
           app_id: 408712
 
-      - run: pnpm ci
+      - run: pnpm i
 
       - run: pnpm run build-lib
 
