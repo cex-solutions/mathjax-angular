@@ -71,7 +71,8 @@
         {
           "npmPublish": true,
           "pkgRoot": "dist/mathjax-lib",
-          "tarballDir": "dist"
+          "tarballDir": "dist",
+          "registry": "https://npm.pkg.github.com/"
         }
       ],
       "@semantic-release/github"
