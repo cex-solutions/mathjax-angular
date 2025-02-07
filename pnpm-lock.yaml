@@ -32,9 +32,6 @@ importers:
       '@angular/router':
         specifier: ^18.2.13
         version: 18.2.13(@angular/common@18.2.13(@angular/core@18.2.13(rxjs@7.5.7)(zone.js@0.14.10))(rxjs@7.5.7))(@angular/core@18.2.13(rxjs@7.5.7)(zone.js@0.14.10))(@angular/platform-browser@18.2.13(@angular/animations@18.2.13(@angular/core@18.2.13(rxjs@7.5.7)(zone.js@0.14.10)))(@angular/common@18.2.13(@angular/core@18.2.13(rxjs@7.5.7)(zone.js@0.14.10))(rxjs@7.5.7))(@angular/core@18.2.13(rxjs@7.5.7)(zone.js@0.14.10)))(rxjs@7.5.7)
-      mathjax-angular:
-        specifier: ^2.2.1
-        version: 2.2.1(@angular/common@18.2.13(@angular/core@18.2.13(rxjs@7.5.7)(zone.js@0.14.10))(rxjs@7.5.7))(@angular/core@18.2.13(rxjs@7.5.7)(zone.js@0.14.10))
       rxjs:
         specifier: ~7.5.0
         version: 7.5.7
@@ -4117,12 +4114,6 @@ packages:
   math-intrinsics@1.1.0:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
     engines: {node: '>= 0.4'}
-
-  mathjax-angular@2.2.1:
-    resolution: {integrity: sha512-ndXIzO0MyedTH6BhZYJaQT10RaRyeieCj1L8mQWS3kwLD2cM/I69kKz21RJL6FMMDiXamtzVS6U5iEsXX0xN9g==}
-    peerDependencies:
-      '@angular/common': ^17.1.3
-      '@angular/core': ^17.1.3
 
   media-typer@0.3.0:
     resolution: {integrity: sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==}
@@ -10346,12 +10337,6 @@ snapshots:
   marked@12.0.2: {}
 
   math-intrinsics@1.1.0: {}
-
-  mathjax-angular@2.2.1(@angular/common@18.2.13(@angular/core@18.2.13(rxjs@7.5.7)(zone.js@0.14.10))(rxjs@7.5.7))(@angular/core@18.2.13(rxjs@7.5.7)(zone.js@0.14.10)):
-    dependencies:
-      '@angular/common': 18.2.13(@angular/core@18.2.13(rxjs@7.5.7)(zone.js@0.14.10))(rxjs@7.5.7)
-      '@angular/core': 18.2.13(rxjs@7.5.7)(zone.js@0.14.10)
-      tslib: 2.8.1
 
   media-typer@0.3.0: {}
 
