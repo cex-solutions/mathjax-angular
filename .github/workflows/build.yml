@@ -37,5 +37,5 @@ jobs:
 
       - name: Release
         env:
-          NPM_TOKEN: '${{ steps.get_token.outputs.token }}'
+          NPM_TOKEN: ${{ secrets.GH_NPM_TOKEN }}
         run: npx semantic-release
